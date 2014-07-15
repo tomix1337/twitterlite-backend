@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main" unless="jpametamodel.skip">
-  <property name="target.dir" value="C:\dev\tutorials\twitter\twitterlite\ws\target/generated-src"/>
+  <property name="target.dir" value="C:\Users\chiara.felice\Documents\twitter\twitterlite-backend\twitterlite\ws\target/generated-src"/>
   <mkdir dir="${target.dir}"/>
 </target>
 </project>

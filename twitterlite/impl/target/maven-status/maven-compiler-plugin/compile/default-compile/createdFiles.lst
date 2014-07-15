@@ -1,3 +1,4 @@
 com\ixaris\twitterlite\module\impl\MessageImpl.class
-com\ixaris\twitterlite\module\impl\twitterFacadeImpl.class
+com\ixaris\twitterlite\module\impl\MessageAdminFacadeImpl.class
+com\ixaris\twitterlite\module\impl\MessageImpl_.class
 com\ixaris\twitterlite\module\impl\Main.class
