@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.215" tests="31" errors="0" skipped="0" failures="0">
+<testsuite name="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.205" tests="31" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\dev\applications\Java\jdk1.7.0_17\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="os.name" value="Windows 8"/>
     <property name="classworlds.conf" value="C:\dev\applications\maven\apache-maven-3.2.1\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\dev\applications\Java\jdk1.7.0_17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\dev\applications\Java\jdk1.7.0_17\bin;C:\dev\applications\maven\apache-maven-3.2.1\bin;C:\dev\applications\Groovy\bin;C:\dev\applications\PuTTY;C:\dev\applications\mongodb\mongodb-win32-x86_64-2008plus-2.6.3\bin;C:\dev\applications\Git\cmd;C:\dev\applications\Git\bin;C:\dev\applications\nodejs\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\dev\applications\apache-maven-3.2.1\bin;C:\dev\applications\groovy\groovy-2.1.2-installer.exe;."/>
+    <property name="java.library.path" value="C:\dev\applications\Java\jdk1.7.0_17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\dev\applications\Java\jdk1.7.0_17\bin;C:\dev\applications\maven\apache-maven-3.2.1\bin;C:\dev\applications\Groovy\bin;C:\dev\applications\PuTTY;C:\dev\applications\mongodb\mongodb-win32-x86_64-2008plus-2.6.3\bin;C:\dev\applications\Git\cmd;C:\dev\applications\Git\bin;C:\dev\applications\nodejs\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\dev\applications\apache-maven-3.2.1\bin;C:\dev\applications\groovy\groovy-2.1.2-installer.exe;C:\Users\chiara.felice\AppData\Roaming\npm;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,35 +60,35 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLookUpByMentioningUserNegative" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.154"/>
+  <testcase name="testLookUpByMentioningUserNegative" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.148"/>
   <testcase name="testLookUpByMentioningUserNull" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
   <testcase name="testLookUpByMentioningUserZero" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
   <testcase name="testLookUpByHashTagEs" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.002"/>
-  <testcase name="testAddMessageSuccess" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.009"/>
+  <testcase name="testAddMessageSuccess" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.008"/>
   <testcase name="testCountMessageCorrectUsername" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.016"/>
   <testcase name="testLookupMessageNegative" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
   <testcase name="testAddMessageES" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.005"/>
-  <testcase name="testLookUpByHashTagNull" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
-  <testcase name="testLookUpByHashTagZero" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
-  <testcase name="testLookUpByHashTagNegative2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
-  <testcase name="testLookupMessageNegative2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
-  <testcase name="testLookUpByHashTagNegative" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
+  <testcase name="testLookUpByHashTagNull" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
+  <testcase name="testLookUpByHashTagZero" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
+  <testcase name="testLookUpByHashTagNegative2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
+  <testcase name="testLookupMessageNegative2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
+  <testcase name="testLookUpByHashTagNegative" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
   <testcase name="testHashParsingNotOk" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
   <testcase name="testAddMessageES3" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
-  <testcase name="testAddMessageES4" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.002"/>
+  <testcase name="testAddMessageES4" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
   <testcase name="testHashMentionsOk" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
-  <testcase name="testAddMessageNull2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
-  <testcase name="testAddMessageNull3" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
-  <testcase name="testAddMessageNulls" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
-  <testcase name="testLookUpByMentioningUserEs" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
+  <testcase name="testAddMessageNull2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
+  <testcase name="testAddMessageNull3" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
+  <testcase name="testAddMessageNulls" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
+  <testcase name="testLookUpByMentioningUserEs" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
   <testcase name="testLookUpByMentioningUserOK" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
   <testcase name="testLookupMessageZero2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
-  <testcase name="testAddMessageSuccess2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.007"/>
+  <testcase name="testAddMessageSuccess2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.006"/>
   <testcase name="testLookUpMessageSuccess" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
   <testcase name="testLookupMessageZero" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
   <testcase name="testAddMessageDbFail" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.003"/>
   <testcase name="testLookUpByMentioningUserNegative2" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
-  <testcase name="testCountMessageEmptyString" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
-  <testcase name="testCountMessageNullUsername" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
+  <testcase name="testCountMessageEmptyString" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
+  <testcase name="testCountMessageNullUsername" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0"/>
   <testcase name="testHashParsingOk" classname="com.ixaris.twitterlite.test.MessageAdminFacadeImplTest" time="0.001"/>
 </testsuite>
