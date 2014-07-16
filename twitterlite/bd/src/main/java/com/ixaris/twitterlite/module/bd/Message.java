@@ -1,6 +1,5 @@
 package com.ixaris.twitterlite.module.bd;
 
-import java.util.Date;
 import java.util.List;
 
 

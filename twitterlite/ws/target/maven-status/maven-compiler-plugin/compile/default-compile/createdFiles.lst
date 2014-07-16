@@ -1,3 +1,4 @@
 com\ixaris\twitterlite\webapp\ws\twitterController.class
+com\ixaris\twitterlite\webapp\ws\CorsFilter.class
 com\ixaris\twitterlite\webapp\ws\MessageModelConverter.class
 com\ixaris\twitterlite\webapp\ws\MessageModel.class

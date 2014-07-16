@@ -1,6 +1,5 @@
 package com.ixaris.twitterlite.webapp.ws;
 
-import java.util.Date;
 import java.util.List;
 
 public class MessageModel {
